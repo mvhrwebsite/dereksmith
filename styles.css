@@ -1,0 +1,128 @@
+body {
+  font-family: "noto+serif";
+  text-align: center;
+  background-color: #343f56;
+}
+p{
+    color: #387c6d;
+}
+.logo{
+  background-color: #e9896a;
+}
+.logo-image{
+  width: 100%
+}
+.colored-section {
+  
+  text-align: center;
+}
+
+.navbar {
+  padding: 2% 28% 3%;
+
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 0 18px;
+  text-align: center;
+
+}
+
+/* video */
+
+/* bio */
+.bio{
+  width: 50%;
+margin: 80px auto;
+text-align: left;
+}
+.image-bio {
+  width: 35%;
+  float: left;
+  margin-right: 40px;
+  border-radius: 5%;
+
+}
+.text-bio {
+  width: 50%;
+  margin: 100px auto;
+  font-size: 1.5rem;
+
+}
+
+
+
+/* footer */
+#footer {
+  padding: 5% 12%;
+  background-color: #e9896a;
+  color: #387c6d;
+}
+
+.footer-icon {
+  margin: 25px 10px;
+  font-size: 2rem;
+    color: #387c6d;
+
+
+}
+
+/* music-html */
+#music-box{
+    position: relative;
+}
+.feature-box{
+
+
+}
+
+/* Contact-me-html */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }

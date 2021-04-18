@@ -70,11 +70,9 @@ text-align: left;
 }
 
 /* music-html */
-#music-box{
-    position: relative;
-}
-.feature-box{
 
+.feature-box{
+margin: 100px 0;
 
 }
 

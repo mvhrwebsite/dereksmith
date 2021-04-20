@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <!-- CSS stylesheet -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylestest.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8529bf307a.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Scripts -->
@@ -21,13 +21,13 @@
 
 
   <style>
-body {
-background-image: url('IMG_20200827_123649.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
-}
-</style>
+    body {
+      background-image: url('IMG_20200827_123649.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
 
 </head>
 
@@ -39,102 +39,106 @@ background-size: 100% 100%;
   </div>
 
 
-      <!-- Nav Bar -->
-      <section class="colored-section" id="title">
+  <!-- Nav Bar -->
+    <div class="wrapper-navbar">
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#bio">Bio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="music.html">Music</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Video">Video</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact-me.html">Contact</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Video">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact-me.html">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
+
+
+
+  <div class="container">
+    <!-- video -->
+
+
+    <div class="wrapper-video" id="video">
+
+
+      <div class="iframe-container">
+        <iframe width="800" height="480" src="https://www.youtube.com/embed/i2uSSQ4gF34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
 
       </div>
-    </nav>
-
-  </section>
-
-
-  <!-- video -->
-  <section id="video">
-
-
-    <div class="iframe-container">
-      <iframe width="800" height="480" src="https://www.youtube.com/embed/i2uSSQ4gF34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
     </div>
-  </section>
+      </div>
 
-  <!-- Bio -->
-  <section class="wrapper-bio">
+    <!-- Bio -->
+    <div class="container">
+    <div class="wrapper-bio">
 
 
-    <div class="bio">
+      <div class="bio">
 
-      <img class="image-bio" src="IMG-20201019-WA0007.jpg" alt="bio-image">
-      <p class="text-bio">
-      My name is Derek Alexander Smith, an indie songwriter and musician from Brooklyn, NY.
+        <img class="image-bio" src="IMG-20201019-WA0007.jpg" alt="bio-image">
+        <p class="text-bio">
+          My name is Derek Alexander Smith, an indie songwriter and musician from Brooklyn, NY.
           The music I make typically hovers in the crossroads of rock, folk, and country -- but with a lot of varied influences. Some of my favorite artists are
           Sturgill Simpson, The Grateful Dead, Peter Tosh, Oliver Mtukudzi, Milton Nascimento, Madison Cunningham, Joey Landreth and Joni Mitchell.
-      </p>
+        </p>
+      </div>
+
     </div>
+      </div>
 
-  </section>
-
-  <!-- Footer -->
-  <section>
+    <!-- Footer -->
 
 
-    <div class="footer-image">
+
+    <div class="container footer-image">
 
 
       <footer id="footer">
         <a target="_blank" href="https://derekalexandersmith.bandcamp.com/">
-            <i class="footer-icon fab fa-bandcamp"></i>
+          <i class="footer-icon fab fa-bandcamp"></i>
         </a>
         <a target="_blank" href="https://open.spotify.com/artist/5ka5b1wfwNXTQ0AzPH9TMk">
-            <i class="footer-icon fab fa-spotify"></i>
+          <i class="footer-icon fab fa-spotify"></i>
         </a>
         <a target="_blank" href="https://www.youtube.com/channel/UCzEQ8Fv7cx3VgBq4YWweHqA">
-            <i class="footer-icon fab fab fa-youtube"></i>
+          <i class="footer-icon fab fab fa-youtube"></i>
         </a>
         <a target="_blank" href="https://www.instagram.com/derekalexandersmith/">
-            <i class="footer-icon fab fa-instagram"></i>
+          <i class="footer-icon fab fa-instagram"></i>
         </a>
-
-
-
-
-
 
           <p>© Copyright 2021 Derek Alexander Smith</p>
 
       </footer>
     </div>
-  </section>
+
 
 </body>
 

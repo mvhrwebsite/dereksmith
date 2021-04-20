@@ -11,11 +11,13 @@ a{
 }
 /* logo */
 .logo{
+background-color: #e6a177;
 
 
 
 }
 .logo-image{
+  width: auto;
 
 
 }
